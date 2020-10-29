@@ -1,0 +1,32 @@
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(30,30,30,0.9);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #FFFCEC;
+  text-align: center;
+  font-weight: 100;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+#logo {
+  float: left;
+  display: block;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: rgb(255, 154, 118);
+  font-weight: 500;
+}
